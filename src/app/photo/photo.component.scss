@@ -1,0 +1,15 @@
+.photos {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-flow: row nowrap;
+  height: 100%;
+
+  div {
+    flex: 1 30%;
+
+    &.main {
+      flex: 3 100%;
+    }
+  }
+}

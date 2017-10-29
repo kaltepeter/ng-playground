@@ -1,8 +1,8 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {AppComponent} from './app/app.component';
+import {AppComponent} from './app.component';
 
-const appRoutes: Routes = [
+export const appRoutes: Routes = [
   {path: '', pathMatch: 'full', component: AppComponent},
   // { path: '**', component: PageNotFoundComponent }
 ];

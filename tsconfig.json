@@ -14,6 +14,11 @@
     "lib": [
       "es2017",
       "dom"
+    ],
+    "exclude": [
+      "test.ts",
+      "src/wallabyTest.ts",
+      "**/*.spec.ts"
     ]
   }
 }
